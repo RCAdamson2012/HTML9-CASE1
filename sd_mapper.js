@@ -12,7 +12,7 @@
 */
 
 // Create a Date object for February 3, 2018 at 3:15:28 a.m.*/
-var thisTime = new Date("February 3, 2018 3:15:28");
+var thisTime = new Date();
 // Store the date and time as a local text string*/
 var timeStr = thisTime.toLocaleString();
 
