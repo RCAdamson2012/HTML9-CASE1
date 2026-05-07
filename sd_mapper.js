@@ -17,7 +17,7 @@ var thisTime = new Date();
 var timeStr = thisTime.toLocaleString();
 
 // Display the date and time in the page element with the id timestamp*/
-document.getElementById("timestamp").innerHTML = timeStr;
+document.getElementById("timeStamp").innerHTML = timeStr;
 
 // Get the current hour from the Date object*/
 var thisHour = thisTime.getHours();
